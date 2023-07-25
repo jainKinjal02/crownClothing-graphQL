@@ -54,7 +54,6 @@ const firebaseConfig = {
     });
 
     await batch.commit();
-    console.log('done');
   };
 
   //to get products and categories from firestore
